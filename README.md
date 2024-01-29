@@ -13,6 +13,7 @@
 3. [Important Commands](#important-commands)
    1. [Execute Rust continuously](#execute-rust-continuously)
 4. [Rust CheatSheet](#rust-cheatsheet)
+5. [Rust Manfest Format](#rust-manfest-format)
 
 ----
 
@@ -42,3 +43,8 @@ cargo install cargo-watch
 # Rust CheatSheet 
 
 [Cheats.rs](https://cheats.rs/) - Official cheatsheet, very helpul
+
+# Rust Manfest Format 
+
+[Rust Manfest](https://doc.rust-lang.org/cargo/reference/manifest.html)
+- this has all the metadata which will be required for your rust project 
