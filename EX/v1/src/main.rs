@@ -4,7 +4,8 @@ Main entry point into all the excercises that will be done
 
 // Libraries to be used
 use colored::*;
-mod wok;
+mod tezt;
+mod wok; // Declaring this makes it visible
 
 // Main entry point into all the excercises that will be done
 fn main() {
@@ -23,6 +24,6 @@ fn main() {
 }
 
 fn ex1() {
-    println!("{}", "Excercise 1".red());
+    print!("{}", "Excercise 1".green());
     wok::partA::e1();
 }
