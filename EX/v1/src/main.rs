@@ -24,5 +24,5 @@ fn main() {
 
 fn ex1() {
     println!("{}", "Excercise 1".red());
-    wok::A::e1();
+    wok::partA::e1();
 }
