@@ -24,6 +24,5 @@ fn main() {
 }
 
 fn ex1() {
-    print!("{}", "Excercise 1".green());
     wok::partA::e1();
 }
