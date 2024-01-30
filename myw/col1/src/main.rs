@@ -4,14 +4,15 @@ Making this for testing color basically
 
 // Calling the colored crate
 use colored::*;
-
+mod pic;
 
 fn main() {
-    println!("{}","Fuck all nights".red().bold());
-    print!("
-{}
-{}
-{}
-    ", "Hello".green().bold(), "World".green().bold().blink(), "!!!".green().bold());
+    panty1()
 }
 
+
+fn panty1() {
+    // This function just prints colors and that it 
+    println!("{}","Fuck all nights and what else ?".red().bold());
+    pic::pixx();
+}
